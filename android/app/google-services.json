@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "623865730635",
+    "project_id": "tathkarah-122bc",
+    "storage_bucket": "tathkarah-122bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623865730635:android:4880541bf1ac310e9b1fce",
+        "android_client_info": {
+          "package_name": "com.example.flutterdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623865730635-468l4h92tu95lj4vku8vv4ntl9q31tee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGOM2NmTMDsNQEQY2nOlrx4FLBumfV-Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623865730635-468l4h92tu95lj4vku8vv4ntl9q31tee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "623865730635-2deh37d5i5p9rvg43l2suq7baovic3nc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

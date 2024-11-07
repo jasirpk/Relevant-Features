@@ -6,6 +6,7 @@ import 'package:flutter_demo/controller/adjust.dart';
 import 'package:flutter_demo/controller/notification_service.dart';
 import 'package:flutter_demo/model/hive_model.dart';
 import 'package:flutter_demo/view/pages/auth.dart';
+import 'package:flutter_demo/view/webview/webview_screen.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
@@ -35,8 +36,16 @@ class SampleProject extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+          textTheme: TextTheme(
+            titleMedium: TextStyle(color: Colors.white),
+          ),
+          iconTheme: IconThemeData(
+            color: Colors.white,
+          )),
       debugShowCheckedModeBanner: false,
-      home: AuthScreen(),
+      // home: AuthScreen(),
+      home: WebviewScreen(),
     );
   }
 }
